@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('../fonts/Futura-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Futura-Bold.woff') format('woff'), url('../fonts/Futura-Bold.ttf')  format('truetype'), url('../fonts/Futura-Bold.svg#Futura-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face 
+{
+  font-family: 'FuturaBT-Bold';
+  src: url('../fonts/FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+	  url('../fonts/FuturaBT-Bold.woff') format('woff'),
+	  url('../fonts/FuturaBT-Bold.ttf')  format('truetype'),
+	  url('../fonts/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face 
+{
+	  font-family: 'FuturaBT-Medium';
+	  src: url('../fonts/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+		   url('../fonts/FuturaBT-Medium.woff') format('woff'), 
+	       url('../fonts/FuturaBT-Medium.ttf')  format('truetype'), 
+	       url('../fonts/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+}
+.predictor_wcc
+{
+	width:24.5%;
+	background-image:url("../img/bg-g.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.pnw_header
+{
+	background-image:url("../img/red_header.png");
+	background-size:100%;
+	
+}
+.predictor_nwleft_tname h3,
+.predictor_nwright_tname h3
+{
+	font-size:13px !important;
+	color:#fff;
+	font-family: 'Futura-Bold';
+	text-transform:uppercase;
+}
+
+ 
+.predicor_nwleft_score h4,
+.predicor_nwleft_score h5,
+.predicor_nwright_score h4,
+.predicor_nwright_score h5
+{
+	color:#fff;
+	font-family:'FuturaBT-Bold';
+    margin-bottom:0px;	
+	margin-top:0px;
+}
+.predicor_nwleft_score h5,
+.predicor_nwright_score h5
+{
+	text-transform: uppercase;
+	margin-top: 6px;
+	font-size:12px;
+	font-family: 'FuturaBT-Bold';
+	
+}
+.pw_vr_cc
+{
+	padding-right:0px;
+}
+.pw_vrr_cc
+{
+	padding-left:0px;
+}
+.pw_versus
+{
+	float: right;
+	font-size: 22px;
+	color: #fff;
+	font-weight:bold;
+	left:8px;
+	position:relative;
+}
+.predictor_nwright_tname h3
+{
+	left:10px;
+	position:relative;
+}
+#pt_teamb_progressbar
+{
+	border:1px solid #00E8FF;
+	padding:2px;
+	border-radius:4px;
+}
+#pt_teamb_progressbar > div:nth-child(1) {
+    background:#00E8FF;
+    border:0px;
+    margin:0px;
+    border-radius:0px;
+	height:16px;
+	
+}
+#pt_team_progressbar
+{
+	border:1px solid #EB268F;
+	padding:2px;
+	border-radius:4px;
+}
+#pt_team_progressbar > div:nth-child(1) {
+    background: #EB268F;
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+	height: 16px;
+	
+}
+.result_predictor table tr td {
+    color: #fff;
+    font-weight: bold;
+	font-family: 'FuturaBT-Medium';
+	text-align:center;
+	font-size:12px;
+}
+.result_predictor table tr td:nth-child(3)
+{
+	left:10px;
+	position:relative;
+}
+.result_predictor table tr td:nth-child(2) {
+    width: 90%;
+}
+.result_predictor table
+{
+	border-collapse: separate;
+	border-spacing: 3px;
+	
+}
+.predicor_needs h4
+{
+	color:#fff;
+	text-transform:uppercase;
+	font-size:13px;
+	font-weight:bold;
+	font-family: 'FuturaBT-Medium';
+	margin-top:0px;
+}
+.result_predictor h3
+{
+	text-transform:uppercase;
+	color:#fff;
+	text-align:center;
+	font-family: 'FuturaBT-Medium';
+	font-size:14px;
+}
+.result_commentry h3
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	font-weight:bold;
+	font-family: 'FuturaBT-Medium';
+	font-size: 32px;
+}
+.pnw_right_push
+{
+	right:10px;
+	position:relative;
+}
+
+.pnw_scp_head h3
+{
+	color:#fff;
+	font-family: 'FuturaBT-Medium';
+	font-size: 14px;
+	text-transform:uppercase;
+	
+}
+.pnw_center h4
+{
+	color:#fff;
+	font-family: 'Futura-Bold';
+	text-transform:uppercase;
+	padding-top:6px;
+}
+.pnw_scp_head,.result_predictor
+{
+	border-top: 1px dashed #fff;
+	text-align:center;
+}
+.pnw_right
+{
+	padding-top:17px;
+}
+.pnw_left img
+{
+	padding:4px;
+}
+.pnw_gp
+{
+	padding-bottom:20px;
+}
+.predicor_needs
+{
+	left:7px;
+	position:relative;
+}
+.predicor_nwright_score
+{
+	left:18px;
+	position:relative;
+}
+.predicor_nwleft_score
+{
+	right: 10px;
+	position: relative;
+}
+@media screen and (min-width:320px) and (max-width:649px)
+{
+	.predictor_wcc
+	{
+		width:100%;
+		
+	}
+	.predicor_nwleft_score h5, .predicor_nwright_score h5 {
+		font-size:11px;
+	}
+	.predicor_needs h4 {
+    
+    margin-top: 0px;
+    left: 10px;
+    position: relative;
+	}
+}
+@media screen and (min-width:650px) and (max-width:1023px)
+{
+	.predictor_wcc
+	{
+		width:100%;
+	}
+}
